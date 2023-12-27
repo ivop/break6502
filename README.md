@@ -37,3 +37,7 @@ sys	0m0,424s
 | AMD FX8320 3.5GHz | yes | yes | ±175 | ±550 |
 | AMD Ryzen 5625U 4.3GHz | yes | no | ±80 | ±1203 |
 | AMD Ryzen 5625U 4.3GHz | yes | yes | ±74 | ±1301 |
+
+LTO (Link Time Optimization) inlines all the BasicLogic functions, which is a big improvement.
+HLE (High Level Execution?) replaces some of the gate level logic with shorter and faster C code. Improvement seems marginal.
+I think the biggest speed gain was reached by replacing the PLA with a giant lookup table.
