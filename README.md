@@ -28,5 +28,5 @@ sys	0m0,424s
 
 | CPU | time (s) | 6502 speed (kHz) |
 | --- | --- | --- |
-| AMD FX8320 3.5GHz.     | ±827 | ±116 |
+| AMD FX8320 3.5GHz      | ±827 | ±116 |
 | AMD Ryzen 5625U 4.3GHz | ±460 | ±209 |
