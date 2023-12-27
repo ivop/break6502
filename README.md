@@ -2,9 +2,10 @@
 
 Gate level simulation of the 6502 CPU.  
 
-The core code was lifted from https://github.com/emu-russia/breaks which was based on the extensive work at https://github.com/emu-russia/breaknes.
+The core code was lifted from https://github.com/emu-russia/breaknes which was based on the extensive work at https://github.com/emu-russia/break.
+Take a look at the 6502 Core book. Great stuff!
 
-This repo contains the CPU core, and SRAM, without all the NES and Board stuff, as an example how to use the core and test it for speed and accuracy.
+This repo contains the CPU core, and SRAM, without all the NES and Board stuff of breaknes, as an example of how to use the core and test it for speed and accuracy.
 
 ```
 $ mkdir build
