@@ -39,5 +39,5 @@ sys	0m0,424s
 | AMD Ryzen 5625U 4.3GHz | yes | yes | ±74 | ±1301 |
 
 LTO (Link Time Optimization) inlines all the BasicLogic functions, which is a big improvement.
-HLE (High Level Execution?) replaces some of the gate level logic with shorter and faster C code. Improvement seems marginal.
+HLE (High Level Execution?) replaces some of the gate level logic with shorter and faster C code. Improvement is less than 10%.
 I think the biggest speed gain was reached by replacing the PLA with a giant lookup table.
