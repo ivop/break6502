@@ -24,5 +24,9 @@ user	13m47,040s
 sys	0m0,424s
 ```
 
-Timed on an AMD FX(tm)-8320 Eight-Core Processor at 3.5GHz.  
-6502 speed = 96247431 / 827 ≈ 116381 ≈ 116kHz  
+### Speed
+
+| CPU | time (s) | 6502 speed |
+| --- | --- | --- |
+| AMD FX8320 3.5GHz. | ±827 | ±116kHz |
+| AMD Ryzen 5625U 4.3GHz | ±460.2 | ±209kHz |
