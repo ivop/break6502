@@ -6,6 +6,9 @@ The core code was lifted from https://github.com/emu-russia/breaknes which was b
 Take a look at the 6502 Core book. Great stuff!
 
 This repo contains the CPU core, and SRAM, without all the NES and Board stuff of breaknes, as an example of how to use the core and test it for speed and accuracy.
+The accuracy test is the 6502 functional test by Klaus Dormann (https://github.com/Klaus2m5/6502_65C02_functional_tests) (CA65 version: https://github.com/amb5l/6502_65C02_functional_tests).
+
+### Build Instructions
 
 ```
 $ mkdir build
