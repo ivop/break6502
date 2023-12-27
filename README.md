@@ -29,14 +29,19 @@ sys	0m0,424s
 
 ### Speed
 
-| CPU | LTO | HLE | time (s) | 6502 speed (kHz) |
-| --- | --- | --- | --- | --- |
-| AMD FX8320 3.5GHz | no | no | ±827 | ±116 |
-| AMD Ryzen 5625U 4.3GHz | no | no | ±460 | ±209 |
-| AMD FX8320 3.5GHz | yes | no | ±184 | ±523 |
-| AMD FX8320 3.5GHz | yes | yes | ±175 | ±550 |
-| AMD Ryzen 5625U 4.3GHz | yes | no | ±80 | ±1203 |
-| AMD Ryzen 5625U 4.3GHz | yes | yes | ±74 | ±1301 |
+##### AMD FX8320 8-Core 3.5GHHz (Oct. 2012)
+| LTO | HLE | time (s) | 6502 speed (kHz) |
+| --- | --- | --- | --- |
+| no | no | ±827 | ±116 |
+| yes | no | ±184 | ±523 |
+| yes | yes | ±175 | ±550 |
+
+##### AMD Ryzen 5625U 6-Core 4.3GHz (Jan. 2022)
+| LTO | HLE | time (s) | 6502 speed (kHz) |
+| --- | --- | --- | --- |
+| no | no | ±460 | ±209 |
+| yes | no | ±80 | ±1203 |
+| yes | yes | ±74 | ±1301 |
 
 LTO (Link Time Optimization) inlines all the BasicLogic functions, which is a big improvement.
 HLE (High Level Execution?) replaces some of the gate level logic with shorter and faster C code. Improvement is less than 10%.
