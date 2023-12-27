@@ -26,7 +26,7 @@ sys	0m0,424s
 
 ### Speed
 
-| CPU | LTO | HLE time (s) | 6502 speed (kHz) |
+| CPU | LTO | HLE | time (s) | 6502 speed (kHz) |
 | --- | --- | --- | --- | --- |
 | AMD FX8320 3.5GHz | no | no | ±827 | ±116 |
 | AMD Ryzen 5625U 4.3GHz | no | no | ±460 | ±209 |
