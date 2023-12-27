@@ -10,7 +10,7 @@ This repo contains the CPU core, and SRAM, without all the NES and Board stuff o
 ```
 $ mkdir build
 $ cd build
-$ cmake ..
+$ CXXFLAGS=-flto cmake ..
 $ make -j8
 $ cd ../test
 $ time ../build/break6502
@@ -26,7 +26,9 @@ sys	0m0,424s
 
 ### Speed
 
-| CPU | time (s) | 6502 speed (kHz) |
-| --- | --- | --- |
-| AMD FX8320 3.5GHz      | ±827 | ±116 |
-| AMD Ryzen 5625U 4.3GHz | ±460 | ±209 |
+| CPU | LTO | time (s) | 6502 speed (kHz) |
+| --- | --- | --- | --- |
+| AMD FX8320 3.5GHz | no | ±827 | ±116 |
+| AMD Ryzen 5625U 4.3GHz | no | ±460 | ±209 |
+| AMD FX8320 3.5GHz | yes | ±184 | ±523 |
+| AMD Ryzen 5625U 4.3GHz | yes | ±80 | ±1203 |
