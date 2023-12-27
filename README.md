@@ -25,4 +25,4 @@ sys	0m0,424s
 ```
 
 Timed on an AMD FX(tm)-8320 Eight-Core Processor at 3.5GHz.  
-6502 speed = 96247431 / 827 = 116381.4 = ± 116kHz  
+6502 speed = 96247431 / 827 ≈ 116381 ≈ 116kHz  
