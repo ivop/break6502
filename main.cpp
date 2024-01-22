@@ -118,7 +118,7 @@ static void load_test(const char *filename) {
 
 int main(int argc, char **argv) {
     printf("Starting Core... (first call generates Decoder6502.bin)\n");
-    core = new M6502Core::M6502(false, false);     // HLE, BCD_HACK
+    core = new M6502Core::M6502(true, false);     // HLE, BCD_HACK
     printf("Starting SRAM...\n");
     ram  = new BaseBoard::SRAM("RAM", 16, false);  // name, 1<<bits, trace
 
