@@ -5,7 +5,9 @@ add_definitions (-D_LINUX)
 
 # Main application
 
-set(CMAKE_BUILD_TYPE Release)
+#set(CMAKE_BUILD_TYPE Release)
+
+set(CMAKE_CXX_FLAGS "-flto -fomit-frame-pointer -march=native -Ofast -DNDEBUG")
 
 add_executable (break6502 
 	Common/BaseLogicLib/BaseLogic.cpp
